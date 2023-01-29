@@ -58,11 +58,11 @@ function checkValue(str, obj) {
     for (let key in obj) {
         if (key == str) {
             flag = true;
-            answer2.innerHTML = `Такое свойство (${key}) ЕСТЬ! (${flag})`;
+            answer2.innerHTML = `Такое свойство ЕСТЬ! (${flag})`;
             break;
         } else {
             flag = false;
-            answer2.innerHTML = `Такого свойства (${key}) НЕТ! (${flag})`;
+            answer2.innerHTML = `Такого свойства НЕТ! (${flag})`;
         }
     }
     return flag;
